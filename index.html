@@ -17,10 +17,25 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="icon" href="https://tarinhar.github.io/ecocredit-demo/static/images/favicon.ico" type="image/x-icon" />
+    <link
+      rel="icon"
+      href="https://tarinhar.github.io/ecocredit-demo/static/images/favicon.ico"
+      type="image/x-icon"
+    />
     <link rel="stylesheet" href="style.css" />
     <script type="text/javascript" src="script.js"></script>
     <title>Eco Credit</title>
+    <style>
+      /* body {
+        position: relative; 
+        background: rgba(255,255,255,0.3) url("https://static.vecteezy.com/system/resources/previews/002/186/825/original/people-caring-for-the-environment-on-earth-day-free-vector.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: -1;
+        
+      } */
+    </style>
   </head>
   <body>
     <nav
@@ -54,6 +69,18 @@
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#">Reuse</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Rewards</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Criteria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ENVI News</a>
+            </li> -->
             <li class="nav-item">
               <a class="nav-link" href="#">About</a>
             </li>
@@ -98,13 +125,13 @@
         </div>
       </div>
     </nav>
-    <section>
-      <div class="container-lg">
+    <section class="bg-light bg-gradient">
+      <div class="container-lg pt-4 pb-5 mx-auto ps-md-5">
         <div class="row gap-0 mb-md-2">
-          <div class="col-12 col-md-4 border border-0 text-center p-3">
+          <div class="col-12 col-md-2 border border-0 text-center p-2">
             <div
               class="bg-transparent rounded-circle mx-auto border border-1 shadow"
-              style="width: 200px; height: 200px"
+              style="width: 150px; height: 150px"
               id="img-profile"
             >
               <img
@@ -114,110 +141,242 @@
               />
             </div>
           </div>
-          <div class="col-12 col-md-8 border border-0 text-center p-2 text-dark">
-            <div class="container text-md-start text-center mt-md-5 mt-3">
-              <h1 class="fw-bold" style="color: #028476">THATREE JAIOUE</h1>
-              <h2 class="fw-bold" style="color: #028476">13994</h2>
+          <div
+            class="col-12 col-md-4 border border-0 align-self-center text-md-start text-center p-2"
+          >
+            <div class="container">
+              <h2 class="fw-bold" style="color: #00a8a9">THATREE JAIOUE</h2>
+              <h3 class="fw-bold" style="color: #00a8a9">13994</h3>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 border border-0 align-self-center">
+            <div class="row align-items-end">
+              <div class="col text-center">
+                <h4>
+                  <i class="fa-brands fa-envira me-1" style="color: #6ecb5a"></i
+                  ><span class="fw-bold" style="color: #028476">E</span
+                  ><span class="" style="color: #6ecb5a">co-Credit</span>
+                </h4>
+              </div>
+              <div class="col text-start">
+                <span class="fw-bold fs-1 text-warning">15</span
+                ><span class="ms-3" style="color: #028476">Point</span>
+              </div>
             </div>
           </div>
         </div>
         <div class="row gap-0">
           <div class="col-12 col-md-4 border border-0 text-center p-1">
-            <div class="container">
-              <div class="row">
-                <div class="col-12 border border-0 bg-light border border-1 rounded-3 shadow">
-                  <div>
-                    <i
-                      class="fa-brands fa-envira fs-3 me-1"
-                      style="color: #6ecb5a"
-                    ></i
-                    ><span class="fw-bold fs-2" style="color: #028476">E</span
-                    ><span class="fs-2" style="color: #6ecb5a">co-Credit</span>
-                  </div>
-                  <div>
-                    <span class="fw-bold fs-3 me-2" style="color: #028476"
-                      >Total</span
-                    ><span class="fw-bold fs-3 px-2 text-warning">15</span
-                    ><span class="fs-3" style="color: #028476">Point</span>
-                  </div>
-                </div>
-                <div class="col-12 border border-0">
-                    <div class="container p-1 fw-bold fs-4">
-                        <div class="row gap-1 text-start">
-                            <div class="col-12 p-3"><a class="text-decoration-none text-dark" href="#"><i class="fa-solid fa-house-chimney text-secondary me-3"></i>Home</a></div>
-                            <div class="col-12 p-3"><a class="text-decoration-none text-dark" href="#"><i class="fa-solid fa-gift text-secondary me-3"></i>Reward</a></div>
-                            <div class="col-12 p-3"><a class="text-decoration-none text-dark" href="#"><i class="fa-solid fa-recycle text-secondary me-3"></i>Reuse</a></div>
-                            <div class="col-12 p-3"><a class="text-decoration-none text-dark" href="#"><i class="fa-solid fa-newspaper text-secondary me-3"></i>ENVI News</a></div>
-                        </div>
-                    </div>
-                </div>
+            <div class="row gap-1 ms-auto text-md-start">
+              <div class="col-md-12 col-2 p-0 mb-md-2">
+                <a
+                  class="text-decoration-none text-kblue btn text-center fw-bold btn-light"
+                  href="#"
+                  role="button"
+                  ><i class="fa-solid fa-house-chimney me-md-2"></i>Home</a
+                >
+              </div>
+              <div class="col-md-12 col-2 p-0 mb-md-2">
+                <a
+                  class="text-decoration-none text-kblue btn text-center fw-bold btn-light"
+                  href="https://www.kubota.com/environment/"
+                  role="button"
+                  ><i class="fa-solid fa-newspaper me-md-2"></i> News</a
+                >
+              </div>
+
+              <div class="col-md-12 col-2 p-0 mb-md-2">
+                <a
+                  class="text-decoration-none text-kblue btn text-center fw-bold btn-light"
+                  href="http://koonkah-live.herokuapp.com"
+                  role="button"
+                  ><i class="fa-solid fa-recycle me-md-2"></i>Reuse</a
+                >
+              </div>
+
+              <div class="col-md-12 col-2 p-0 mb-md-2">
+                <a
+                  class="text-decoration-none text-kblue btn text-center fw-bold btn-light"
+                  href="https://tarinhar.github.io/ecocredit/criteria.html"
+                  role="button"
+                  ><i class="fa-solid fa-star me-md-2"></i>Criteria</a
+                >
+              </div>
+              <div class="col-md-12 col-2 p-0 mb-md-2">
+                <a
+                  class="text-decoration-none text-kblue btn text-center fw-bold btn-light"
+                  href="https://tarinhar.github.io/ecocredit/reward.html"
+                  role="button"
+                  ><i class="fa-solid fa-gift me-md-2"></i>Rewards</a
+                >
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-8 text-center p-3">
-              <div class="container border border-1 rounded-3 shadow p-0">
-                  <div class="p-3 mb-3" style="background-color: #6ecb5a;"><h3 class="fw-bold text-light">Activities</h3></div>
-                  <div class="container bg-light">
-                      <div class="row gap-3 fs-5">
-                          <div class="col-12 p-3">
-                              <div class="row">
-                                  <div class="col-2 text-end"><i class="fa-solid fa-leaf text-success"></i></div>
-                                  <div class="col-6 text-start">REUSE</div>
-                                  <div class="col-4 text-center"><span class="fw-bold px-2">6</span>Points</div>
-                                  
-                              </div>
-                          </div>
-                          <div class="col-12 p-3">
-                              <div class="row">
-                                  <div class="col-2 text-end"><i class="fa-solid fa-leaf text-success"></i></div>
-                                  <div class="col-6 text-start">SHEE Month</div>
-                                  <div class="col-4 text-center"><span class="fw-bold px-2">4</span>Points</div>
-                                  
-                              </div>
-                          </div>
-                          <div class="col-12 p-3">
-                              <div class="row">
-                                  <div class="col-2 text-end"><i class="fa-solid fa-leaf text-success"></i></div>
-                                  <div class="col-6 text-start">Waste Separation</div>
-                                  <div class="col-4 text-center"><span class="fw-bold px-2">3</span>Points</div>
-                                  
-                              </div>
-                          </div>
-                          <div class="col-12 p-3">
-                              <div class="row">
-                                  <div class="col-2 text-end"><i class="fa-solid fa-leaf text-success"></i></div>
-                                  <div class="col-6 text-start">ENVI Kahoot</div>
-                                  <div class="col-4 text-center"><span class="fw-bold px-2">2</span>Points</div>
-                                  
-                              </div>
-                          </div>
-                      </div>
+          <div class="col-12 col-md-7 text-center py-2">
+            <div class="container">
+              <div class="row gap-2">
+                <div
+                  class="col-12 border border-0 rounded-pill"
+                  style="background-color: #00a8a9"
+                >
+                  <div class="row py-2">
+                    <div>
+                      <span class="fs-6 fw-bold text-light">Activities</span>
+                    </div>
                   </div>
-
+                </div>
+                <div
+                  class="col-12 py-2 border border-1 rounded-pill bg-light shadow-sm"
+                >
+                  <div class="row align-items-center">
+                    <div class="col-2 text-end">
+                      <i class="fa-solid fa-leaf text-success"></i>
+                    </div>
+                    <div class="col-6 text-start">
+                      Bottle Vending Machine
+                    </div>
+                    <div class="col-4 text-center">
+                      <span class="fw-bold px-2 text-kpoint fs-5 me-3">6</span
+                      >Points
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-12 py-2 border border-1 rounded-pill bg-light shadow-sm"
+                >
+                  <div class="row align-items-center">
+                    <div class="col-2 text-end">
+                      <i class="fa-solid fa-leaf text-success"></i>
+                    </div>
+                    <div class="col-6 text-start">
+                      Koonkah (KAIZEN Reuse)
+                    </div>
+                    <div class="col-4 text-center">
+                      <span class="fw-bold px-2 text-kpoint fs-5 me-3">4</span
+                      >Points
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-12 py-2 border border-1 rounded-pill bg-light shadow-sm"
+                >
+                  <div class="row align-items-center">
+                    <div class="col-2 text-end">
+                      <i class="fa-solid fa-leaf text-success"></i>
+                    </div>
+                    <div class="col-6 text-start">e-Learning</div>
+                    <div class="col-4 text-center">
+                      <span class="fw-bold px-2 text-kpoint fs-5 me-3">3</span
+                      >Points
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-12 py-2 border border-1 rounded-pill bg-light shadow-sm"
+                >
+                  <div class="row align-items-center">
+                    <div class="col-2 text-end">
+                      <i class="fa-solid fa-leaf text-success"></i>
+                    </div>
+                    <div class="col-6 text-start">
+                      Environment Activity (Monthly)
+                    </div>
+                    <div class="col-4 text-center">
+                      <span class="fw-bold px-2 text-kpoint fs-5 me-3">2</span
+                      >Points
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-12 py-2 border border-1 rounded-pill bg-light shadow-sm"
+                >
+                  <div class="row align-items-center">
+                    <div class="col-2 text-end">
+                      <i class="fa-solid fa-leaf text-success"></i>
+                    </div>
+                    <div class="col-6 text-start">
+                      Energy Saving Projects
+                    </div>
+                    <div class="col-4 text-center">
+                      <span class="fw-bold px-2 text-kpoint fs-5 me-3">2</span
+                      >Points
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-12 py-2 border border-1 rounded-pill bg-light shadow-sm"
+                >
+                  <div class="row align-items-center">
+                    <div class="col-2 text-end">
+                      <i class="fa-solid fa-leaf text-success"></i>
+                    </div>
+                    <div class="col-6 text-start">
+                      Water Saving Projects
+                    </div>
+                    <div class="col-4 text-center">
+                      <span class="fw-bold px-2 text-kpoint fs-5 me-3">2</span
+                      >Points
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-12 py-2 border border-1 rounded-pill bg-light shadow-sm"
+                >
+                  <div class="row align-items-center">
+                    <div class="col-2 text-end">
+                      <i class="fa-solid fa-leaf text-success"></i>
+                    </div>
+                    <div class="col-6 text-start">Air Leak</div>
+                    <div class="col-4 text-center">
+                      <span class="fw-bold px-2 text-kpoint fs-5 me-3">2</span
+                      >Points
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-12 py-2 border border-1 rounded-pill bg-light shadow-sm"
+                >
+                  <div class="row align-items-center">
+                    <div class="col-2 text-end">
+                      <i class="fa-solid fa-leaf text-success"></i>
+                    </div>
+                    <div class="col-6 text-start">Forestation</div>
+                    <div class="col-4 text-center">
+                      <span class="fw-bold px-2 text-kpoint fs-5 me-3">2</span
+                      >Points
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-12 py-2 border border-1 rounded-pill bg-light shadow-sm"
+                >
+                  <div class="row align-items-center">
+                    <div class="col-2 text-end">
+                      <i class="fa-solid fa-leaf text-success"></i>
+                    </div>
+                    <div class="col-6 text-start">
+                      Environment KAIZEN
+                    </div>
+                    <div class="col-4 text-center">
+                      <span class="fw-bold px-2 text-kpoint fs-5 me-3">2</span
+                      >Points
+                    </div>
+                  </div>
+                </div>
               </div>
+            </div>
           </div>
         </div>
       </div>
-      <!-- <div class="row gap-0">
-          <div class="col-12 col-md-4 border border-1 text-center p-2"></div>
-          <div class="col-12 col-md-8 border border-1 text-center p-2"></div>
-      </div> -->
     </section>
-    <footer class="footer mt-3 mb-0 bg-light">
-        <div class="container">
-          <div
-            class="d-flex flex-wrap justify-content-between align-items-center mb-3 py-3 border-top"
-          >
-            <div class="d-flex align-items-center">
-              <span class="text-muted"
-                >Copyright © 2022 SIAM KUBOTA Corporation, Inc. All Rights
-                Rerserved.</span
-              >
-            </div>
-  
-          </div>
-        </div>
-      </footer>
+
+    <footer class="footer fixed-bottom mt-auto bg-light py-2">
+      <div class="container">
+        <span class="text-muted"
+          >Copyright © 2022 9Lee Tech. All Rights Rerserved.</span
+        >
+      </div>
+    </footer>
 
     <!-- JavaScript Bundle with Popper -->
     <script

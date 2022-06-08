@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Kanit', sans-serif;
+
 }
 
 #img-profile img {
@@ -17,4 +18,40 @@ body {
     max-height: 100%;
     margin-bottom: 1rem;
     border-radius: 50%;
+    background-color: white;
+}
+
+/* img.image-reward {
+    height: 200px; 
+    width: 300px; 
+    object-fit: contain;
+} */
+
+span.point-number {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+a.text-kblue {
+    color: #00a8a9;
+}
+
+a.text-kblue:hover {
+    color: #F56603;
+}
+
+i.text-kblue {
+    color: #00a8a9;
+}
+
+i.text-kblue:hover {
+    color: #F56603;
+}
+
+span.text-kpoint {
+    color: #00a8a9;
+}
+
+span.text-kpoint:hover {
+    color: #F56603;
 }
